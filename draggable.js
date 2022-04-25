@@ -3,7 +3,6 @@
     https://gist.github.com/niclasmattsson/7bceb05fba6c71c78d507adae3d29417
     */
     
-    
     function interpolateCubicHermite(xeval, xbp, ybp) {
         // first we need to determine tangents (m)
         var n = xbp.length;
@@ -267,3 +266,4 @@
     updateFigure();
     updatePointHandles();
     startDragBehavior();
+    
